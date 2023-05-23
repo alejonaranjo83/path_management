@@ -1,0 +1,11 @@
+# conda env create --file environment.yml
+name: paths_management
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.11.3
+  - pip:
+    
